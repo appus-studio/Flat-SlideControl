@@ -36,12 +36,10 @@ pod 'Flat-SlideControl', '~> 0.0.1'
     [flatSlideControl setLeftValue:1 rightValue:2];
     [self.view addSubview:flatSlideControl];
 
-# Info
-
 Developed By
 ------------
 
-* Alexey Kubas, Appus Studio
+* Alexey Kubas, Sergey Sokoltsov, Andrey Pervushin, Appus Studio
 
 License
 --------
