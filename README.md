@@ -14,11 +14,11 @@ Made in [![Appus Studio](https://github.com/appus-studio/Appus-Splash/blob/maste
 
 ##Configuration:
 
-![](https://github.com/CrazyRA2Ivan/Test/blob/qweqwe/storyboardConfig.gif)
+![](https://github.com/appus-studio/Flat-SlideControl/blob/master/Resource/storyboardConfig.gif)
 
 ##Usage:
 
-![](https://github.com/CrazyRA2Ivan/Test/blob/qweqwe/usage.gif)
+![](https://github.com/appus-studio/Flat-SlideControl/blob/master/Resource/usage.gif)
 
 ##Setup:
 ```Ruby
