@@ -22,7 +22,7 @@ Made by [![Appus Studio](https://github.com/appus-studio/Appus-Splash/blob/maste
 
 ##Setup:
 ```Ruby
-pod 'Flat-SlideControl', '~> 0.0.1'
+pod 'Flat-SlideControl'
 ```
 
 ##Usage example:
