@@ -1,6 +1,6 @@
 //
-//  FlatSlideControl.h
-//  FlatSlideControl
+//  APFlatSlideControl.h
+//  AppusFlatSlideControl
 //
 //  Created by Alexey Kubas on 9/21/15.
 //  Copyright (c) 2015 Appus. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@class FlatSlideControl;
+@class APFlatSlideControl;
 
 IB_DESIGNABLE
 
-@interface FlatSlideControl : UIControl
+@interface APFlatSlideControl : UIControl
 
 @property(nonatomic,assign)NSUInteger leftValue;
 @property(nonatomic,assign)NSUInteger rightValue;

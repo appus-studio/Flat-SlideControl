@@ -3,7 +3,7 @@ Flat-SlideControl
 
 Made by [![Appus Studio](https://github.com/appus-studio/Appus-Splash/blob/master/image/logo.png)](http://appus.pro)
 
-'Flat-SlideControl' is a control in flat design, which gives you an opportunity to make a selection of a range of values
+'APFlatSlideControl' is a control in flat design, which gives you an opportunity to make a selection of a range of values
 
 * [Demo](#demo)
 * [Setup](#setup)
@@ -22,12 +22,12 @@ Made by [![Appus Studio](https://github.com/appus-studio/Appus-Splash/blob/maste
 
 ##Setup:
 ```Ruby
-pod 'Flat-SlideControl'
+pod 'APFlatSlideControl'
 ```
 
 ##Usage example:
 
-    FlatSlideControl *flatSlideControl = [[FlatSlideControl alloc] initWithFrame:slideControlFrame];
+    APFlatSlideControl *flatSlideControl = [[APFlatSlideControl alloc] initWithFrame:slideControlFrame];
     flatSlideControl.groundColor = [UIColor lightGrayColor];
     flatSlideControl.tintColor = [UIColor redColor];
     flatSlideControl.thumbRadius = 30;

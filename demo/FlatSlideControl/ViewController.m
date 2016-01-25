@@ -1,16 +1,16 @@
 //
 //  ViewController.m
-//  FlatSlideControl
+//  AppusFlatSlideControl
 //
 //  Created by Alexey Kubas on 9/21/15.
 //  Copyright (c) 2015 Appus. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "FlatSlideControl.h"
+#import "APFlatSlideControl.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet FlatSlideControl *slideControl;
+@property (weak, nonatomic) IBOutlet APFlatSlideControl *slideControl;
 @property (weak, nonatomic) IBOutlet UILabel *valuesLabel;
 
 @property (weak, nonatomic) IBOutlet UILabel *countLabel;
@@ -59,7 +59,7 @@
     [self updateLabels];
 }
 
-- (IBAction)actionBarValueChanged:(FlatSlideControl*)sender {
+- (IBAction)actionBarValueChanged:(APFlatSlideControl*)sender {
     // update controls
     [self validateControlsValues];
 }

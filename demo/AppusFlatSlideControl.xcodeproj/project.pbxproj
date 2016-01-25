@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E194BD6C1BBED20200355091 /* FlatSlideControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E194BD6B1BBED20200355091 /* FlatSlideControl.m */; settings = {ASSET_TAGS = (); }; };
-		E1A4DC3B1BBECE2F002D3D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4DC321BBECE2F002D3D72 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		E1A4DC3D1BBECE2F002D3D72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A4DC361BBECE2F002D3D72 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		E1A4DC3F1BBECE2F002D3D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4DC381BBECE2F002D3D72 /* main.m */; settings = {ASSET_TAGS = (); }; };
-		E1A4DC401BBECE2F002D3D72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4DC3A1BBECE2F002D3D72 /* ViewController.m */; settings = {ASSET_TAGS = (); }; };
-		E1A4DC421BBECE87002D3D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A4DC411BBECE87002D3D72 /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		E194BD6C1BBED20200355091 /* APFlatSlideControl.m in Sources */ = {isa = PBXBuildFile; fileRef = E194BD6B1BBED20200355091 /* APFlatSlideControl.m */; };
+		E1A4DC3B1BBECE2F002D3D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4DC321BBECE2F002D3D72 /* AppDelegate.m */; };
+		E1A4DC3D1BBECE2F002D3D72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A4DC361BBECE2F002D3D72 /* Images.xcassets */; };
+		E1A4DC3F1BBECE2F002D3D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4DC381BBECE2F002D3D72 /* main.m */; };
+		E1A4DC401BBECE2F002D3D72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4DC3A1BBECE2F002D3D72 /* ViewController.m */; };
+		E1A4DC421BBECE87002D3D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1A4DC411BBECE87002D3D72 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E15053E41BB04A7000BCB5A1 /* FlatSlideControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlatSlideControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E194BD6A1BBED20200355091 /* FlatSlideControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlatSlideControl.h; path = FlatSlideControl/FlatSlideControl.h; sourceTree = SOURCE_ROOT; };
-		E194BD6B1BBED20200355091 /* FlatSlideControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlatSlideControl.m; path = FlatSlideControl/FlatSlideControl.m; sourceTree = SOURCE_ROOT; };
+		E15053E41BB04A7000BCB5A1 /* AppusFlatSlideControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppusFlatSlideControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E194BD6A1BBED20200355091 /* APFlatSlideControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APFlatSlideControl.h; path = FlatSlideControl/APFlatSlideControl.h; sourceTree = SOURCE_ROOT; };
+		E194BD6B1BBED20200355091 /* APFlatSlideControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APFlatSlideControl.m; path = FlatSlideControl/APFlatSlideControl.m; sourceTree = SOURCE_ROOT; };
 		E1A4DC311BBECE2F002D3D72 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FlatSlideControl/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		E1A4DC321BBECE2F002D3D72 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FlatSlideControl/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		E1A4DC361BBECE2F002D3D72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FlatSlideControl/Images.xcassets; sourceTree = SOURCE_ROOT; };
@@ -51,7 +51,7 @@
 		E15053E51BB04A7000BCB5A1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E15053E41BB04A7000BCB5A1 /* FlatSlideControl.app */,
+				E15053E41BB04A7000BCB5A1 /* AppusFlatSlideControl.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,8 +59,8 @@
 		E1A4DC121BBEC45B002D3D72 /* FlatSlideControl */ = {
 			isa = PBXGroup;
 			children = (
-				E194BD6A1BBED20200355091 /* FlatSlideControl.h */,
-				E194BD6B1BBED20200355091 /* FlatSlideControl.m */,
+				E194BD6A1BBED20200355091 /* APFlatSlideControl.h */,
+				E194BD6B1BBED20200355091 /* APFlatSlideControl.m */,
 				E1A4DC311BBECE2F002D3D72 /* AppDelegate.h */,
 				E1A4DC321BBECE2F002D3D72 /* AppDelegate.m */,
 				E1A4DC391BBECE2F002D3D72 /* ViewController.h */,
@@ -86,9 +86,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E15053E31BB04A7000BCB5A1 /* FlatSlideControl */ = {
+		E15053E31BB04A7000BCB5A1 /* AppusFlatSlideControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E15054071BB04A7000BCB5A1 /* Build configuration list for PBXNativeTarget "FlatSlideControl" */;
+			buildConfigurationList = E15054071BB04A7000BCB5A1 /* Build configuration list for PBXNativeTarget "AppusFlatSlideControl" */;
 			buildPhases = (
 				E15053E01BB04A7000BCB5A1 /* Sources */,
 				E15053E11BB04A7000BCB5A1 /* Frameworks */,
@@ -98,9 +98,9 @@
 			);
 			dependencies = (
 			);
-			name = FlatSlideControl;
+			name = AppusFlatSlideControl;
 			productName = Rangebar;
-			productReference = E15053E41BB04A7000BCB5A1 /* FlatSlideControl.app */;
+			productReference = E15053E41BB04A7000BCB5A1 /* AppusFlatSlideControl.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,7 +117,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E15053DF1BB04A7000BCB5A1 /* Build configuration list for PBXProject "FlatSlideControl" */;
+			buildConfigurationList = E15053DF1BB04A7000BCB5A1 /* Build configuration list for PBXProject "AppusFlatSlideControl" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -130,7 +130,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E15053E31BB04A7000BCB5A1 /* FlatSlideControl */,
+				E15053E31BB04A7000BCB5A1 /* AppusFlatSlideControl */,
 			);
 		};
 /* End PBXProject section */
@@ -154,7 +154,7 @@
 			files = (
 				E1A4DC401BBECE2F002D3D72 /* ViewController.m in Sources */,
 				E1A4DC3F1BBECE2F002D3D72 /* main.m in Sources */,
-				E194BD6C1BBED20200355091 /* FlatSlideControl.m in Sources */,
+				E194BD6C1BBED20200355091 /* APFlatSlideControl.m in Sources */,
 				E1A4DC3B1BBECE2F002D3D72 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +253,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pro.appus.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = FlatSlideControl;
+				PRODUCT_NAME = AppusFlatSlideControl;
 			};
 			name = Debug;
 		};
@@ -265,14 +265,14 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "pro.appus.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = FlatSlideControl;
+				PRODUCT_NAME = AppusFlatSlideControl;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E15053DF1BB04A7000BCB5A1 /* Build configuration list for PBXProject "FlatSlideControl" */ = {
+		E15053DF1BB04A7000BCB5A1 /* Build configuration list for PBXProject "AppusFlatSlideControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E15054051BB04A7000BCB5A1 /* Debug */,
@@ -281,7 +281,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E15054071BB04A7000BCB5A1 /* Build configuration list for PBXNativeTarget "FlatSlideControl" */ = {
+		E15054071BB04A7000BCB5A1 /* Build configuration list for PBXNativeTarget "AppusFlatSlideControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E15054081BB04A7000BCB5A1 /* Debug */,
