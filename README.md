@@ -1,7 +1,7 @@
 Flat-SlideControl
 =====================
 
-Made by [![Appus Studio](https://github.com/appus-studio/Appus-Splash/blob/master/image/logo.png)](http://appus.pro)
+Made by [![Appus Studio](https://github.com/alexey-kubas-appus/Flat-SlideControl/blob/master/Resource/appus.png)](https://appus.software)
 
 'APFlatSlideControl' is a control in flat design, which gives you an opportunity to make a selection of a range of values
 
@@ -39,7 +39,7 @@ pod 'APFlatSlideControl'
 Developed By
 ------------
 
-* Alexey Kubas, Sergey Sokoltsov, Andrey Pervushin, Appus Studio
+* Alexey Kubas, Sergey Sokoltsov, Andrey Pervushin, [Appus Studio](https://appus.software)
 
 License
 --------
